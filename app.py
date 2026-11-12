@@ -6,6 +6,6 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/search")
+@app.route("/search-results")
 def search():
     return render_template("search-result.html")
